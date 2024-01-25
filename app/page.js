@@ -8,10 +8,12 @@ function Home() {
   const [values,setValues] = useState("")
 
   const settingValue = () => {
+    setValues(newRef.current.value)
 
   }
 
   const focusInput = () => {
+    newRef.current.focus()
 
   }
 
